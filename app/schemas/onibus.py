@@ -6,7 +6,7 @@ from app.enums.tipo_onibus import TipoOnibus
 class OnibusBase(BaseModel):
     empresa_id: int
     placa: str
-    model: str | None = None
+    modelo: str | None = None
     tipo_layout_assentos: TipoOnibus
     total_assentos: int | None = None
 
