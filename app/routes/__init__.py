@@ -1,0 +1,10 @@
+from .empresa_routes import router as empresa_router
+from .onibus_routes import router as onibus_router
+from .rota_routes import router as rota_router
+from .viagem_routes import router as viagem_router
+from .passageiro_routes import router as passageiro_router
+from .passagem_routes import router as passagem_router
+from .pagamento_routes import router as pagamento_router
+from .reserva_assento_routes import router as reserva_assento_router
+from .registro_embarque_routes import router as registro_embarque_router
+from .usuario_routes import router as usuario_router
